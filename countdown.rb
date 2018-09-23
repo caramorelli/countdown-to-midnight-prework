@@ -7,7 +7,7 @@ def countdown(count)
   int = 0
   while count >= 0
     puts (count - int).to_s + " SECOND(S)!" 
-    int += 1
+    int -= 1
   end 
   puts 'HAPPY NEW YEAR!'
 end

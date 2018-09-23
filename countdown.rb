@@ -1,6 +1,6 @@
 #write your code here
 
 def countdown(count)
-  0.upto(count) { |num| puts num.to_s + ' SECOND(S)!' }
-  puts 'HAPPY NEW YEAR!'
+  count.downto(0) { |num| puts num.to_s + ' SECOND(S)!' }
+  'HAPPY NEW YEAR!'
 end

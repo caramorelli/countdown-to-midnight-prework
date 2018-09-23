@@ -3,9 +3,8 @@
 def countdown(count)
   # count.downto(0) { |num| puts num.to_s + ' SECOND(S)!' }
   # 'HAPPY NEW YEAR!'
-  
+  return 'HAPPY NEW YEAR!' if 
   while count >= 0
-    next if count == 12
     puts count.to_s + " SECOND(S)!" 
     count -= 1
   end 
